@@ -1,0 +1,258 @@
+.container{
+    margin:0 auto;
+    width:900px;
+    height:1500px;
+    display: flex;
+}
+.admin{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color:#FFE7D4;
+    border:3px solid #14e014;
+    border-radius: 15px;
+}
+.resumeLeftSide{
+    width: 60%;
+    height: 100%;
+    background-color: #fefffb;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+.name{
+    color: #484e5e;
+    font-size: 24px;
+    line-height: 46px;
+    width: 321px;
+    height: 48px;
+    border-radius: 15px;
+    padding-left: 15px ;
+}
+.job{
+    color:#FFE7D4;
+    font-size: 20px;
+    letter-spacing: 3px;
+    width:300px;
+    height:68px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 3px solid #FFE7D4 ;
+}
+.languages{
+    color:#FFE7D4;
+    width: 340px;
+    height: 161px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.languageHeader{
+    font-size: 27px;
+}
+.softSkills {
+    padding-top: 60px;
+    color: #FFE7D4;
+    width: 330px;
+    height: 225px;
+    font-size: 15px;
+}
+.contacts{
+    color: #FFE7D4;
+    width:340px;
+    height:225px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.contactsHeader{
+    font-size: 27px;
+}
+.resumeRightSide{
+    height:100%;
+    width:40%;
+    background-color: #484e5e;
+    padding-top: 244px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.skillsContainer{
+    width:385px;
+    height:325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.skillItem{
+    color: black;
+    height: 28px;
+    font-size: 20px;
+    outline: none;
+    width: 345px;
+    border-radius: 5px;
+}
+.hardSkillsHeader{
+    background-color: #FFE7D4;
+    height: 40px;
+    width: 385px;
+    color: black;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 2px;
+    padding-left: 18px;
+    line-height: 100%;
+    padding-top: 10px;
+}
+.containerCourses{
+    color:black;
+    margin-top: 30px;
+}
+.coursesHeader{
+    background-color: #FFE7D4;
+    height: 40px;
+    width: 385px;
+    color: black;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 2px;
+    padding-left: 18px;
+    line-height: 100%;
+    padding-top: 10px;
+}
+.coursesText{
+    margin-top: 20px;
+}
+.siteContainer{
+    margin-top: 30px;
+}
+.siteHeader{
+    background-color: #FFE7D4;
+    height: 40px;
+    width: 385px;
+    color: black;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 2px;
+    padding-left: 18px;
+    line-height: 100%;
+    padding-top: 10px;
+}
+.siteText{
+    color:black;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.experienceContainer{
+    color: black;
+    width: 405px;
+    margin-top: 30px;
+}
+.experienceHeader{
+    background-color: #FFE7D4;
+    height: 40px;
+    width: 385px;
+    color: black;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 2px;
+    padding-left: 18px;
+    line-height: 100%;
+    padding-top: 10px;
+}
+.experienceText{
+    margin-top: 35px;
+}
+.educationContainer{
+    color: black;
+    width: 385px;
+    margin-top: 30px;
+}
+.educationHeader{
+    background-color: #FFE7D4;
+    height: 40px;
+    width: 385px;
+    color: black;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 2px;
+    padding-left: 18px;
+    line-height: 100%;
+    padding-top: 10px;
+}
+.educationText{
+    margin-top: 35px;
+}
+.logIn{
+    margin-top: 35px;
+    color:black;
+    display: flex;
+    background-color: #484e5e;
+    color: #FFE7D4;
+    width:200px;
+    height:55px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.ukrInput{
+    width:200px;
+    height:30px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+}
+.emailInput{
+    width:250px;
+    height:30px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+}
+.siteInput{
+    width:332px;
+    height:30px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+}
+.freeInput{
+    width:95px;
+    height:30px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+}
+.star0 {
+    height: 1px;
+    width: 1px;
+    opacity: 1;
+    position: absolute;
+}
+
+.star1 {
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute;
+}
+
+.star2 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute;
+}
+
+.star3 {
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute;
+}

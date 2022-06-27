@@ -1,0 +1,14 @@
+.logIn{
+    margin-top: 35px;
+    color:black;
+    display: flex;
+    background-color: #484e5e;
+    color: #FFE7D4;
+    width:200px;
+    height:55px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 15px;
+    text-decoration: none;
+}

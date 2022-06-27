@@ -1,0 +1,28 @@
+.container{
+    margin:0 auto;
+    width:900px;
+    height:1500px;
+    display: flex;
+    background-color: #484e5e;
+    display: flow;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    color: #FFE7D4;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+.log{
+    color: #FFE7D4;
+    font-size: 25px;
+    border:2px solid #FFE7D4;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+    outline: none;
+}
