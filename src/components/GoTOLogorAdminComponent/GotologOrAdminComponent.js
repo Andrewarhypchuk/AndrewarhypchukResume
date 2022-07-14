@@ -5,8 +5,8 @@ import classes from "./GotologOrAdmin.module.css";
 
 
 const GoToLogOrAdmin =  (props) =>{
-    console.log(props.isUserLogged)
-    if (props.isUserLogged ){
+    console.log(localStorage.getItem('isLogged'))
+    if (localStorage.getItem('isLogged') === true ){
         return(
 
         <NavLink  to={RouteConst.ADMIN} className={classes.logIn}>
@@ -15,7 +15,7 @@ const GoToLogOrAdmin =  (props) =>{
         )
     }else{
         return(
-            <NavLink  to={RouteConst.LOGIN} className={classes.logIn}>
+            <NavLink  to={RouteConst.ADMIN} className={classes.logIn}>
                 <div>Log In</div>
             </NavLink>
         )

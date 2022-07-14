@@ -19,18 +19,17 @@ const LoginComponent = (props)=>{
                   loginEmail,
                   loginPassword
               )
-              props.setIsUserLogged(true)
-            navigate(RouteConst.ADMIN)
+              localStorage.setItem('isLogged','true')
+             navigate(RouteConst.ADMIN)
           }
           catch(error){
               console.log(error.message)
               props.setIsUserLogged(false)
+              localStorage.setItem('isLogged','false')
               navigate(RouteConst.ADMIN)
           }
     }
-    const logout = async  () =>{
 
-    }
     return(
 
             <div className={classes.loginContainer}>

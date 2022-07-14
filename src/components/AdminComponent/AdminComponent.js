@@ -40,7 +40,7 @@ const   AdminComponent = (props)=>{
     let skills = props.state.hardSkills;
    let listRef = useRef([])
     let allSkills = skills.map((item,index)=>{
-        return <div><input onChange={ ()=>{ changeHardSkillsItem(index)}} ref={(ref)=>{(listRef.current[index] = ref)}}  className={classes.skillItem} key={index} value={item.value}></input></div>
+        return <div key={index}><input onChange={ ()=>{ changeHardSkillsItem(index)}} ref={(ref)=>{(listRef.current[index] = ref)}}  className={classes.skillItem} key={index} value={item.value}></input></div>
     })
    return(
        <div className={classes.container}>

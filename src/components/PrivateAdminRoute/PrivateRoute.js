@@ -4,7 +4,12 @@ import ClosedAdminComponent from "../ClosedAdminComponent/ClosedAdminComponent";
 
 
 const PrivatRoute = (props) => {
+     console.log(localStorage.getItem('isLogged'))
+    if(localStorage.getItem('isLogged') ===  null || localStorage.getItem('isLogged') === 'false' ){
+        return <ClosedAdminComponent />
+    }else{
+        return <Outlet />
+    }
 
-    return props.state.isUserLogged ? <Outlet /> : <ClosedAdminComponent />
 }
 export default PrivatRoute;
